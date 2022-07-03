@@ -30,3 +30,16 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.new-button{
+    text-decoration: none;
+    background-image: linear-gradient(blue,darkblue);
+    padding: 8px 25px;
+    color: white;
+    font-weight: 700;
+    border-radius: 100px;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
