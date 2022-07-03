@@ -8,19 +8,31 @@ h1{
 .orange{
     color: orange;
 }
-section{
+.big{
+    color: red;
+}
+.flexi{
     display: flex;
 }
 .half{
     width: 50%;
     padding: 4%;
+    
 }
 .half img{
     width: 80%;
 }
 .button{
     text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
+    background-image: linear-gradient(red,tomato);
+    padding: 8px 25px;
+    color: white;
+    font-weight: 700;
+    border-radius: 100px;
+}
+.sky{
+    text-decoration: none;
+    background-image: linear-gradient(skyblue,black);
     padding: 8px 25px;
     color: white;
     font-weight: 700;
@@ -29,6 +41,7 @@ section{
 .top{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 .new-button{
     text-decoration: none;
@@ -42,4 +55,9 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 100px;
+}
+.exp{
+    margin-bottom: 100px;
+    box-shadow: 10px 10px yellowgreen;
 }
