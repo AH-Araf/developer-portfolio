@@ -11,8 +11,13 @@ h1{
 .big{
     color: red;
 }
+.small{
+    color:crimson;
+    font-size: 24px;
+}
 .flexi{
     display: flex;
+    margin-bottom: 100px;
 }
 .half{
     width: 50%;
@@ -24,7 +29,7 @@ h1{
 }
 .button{
     text-decoration: none;
-    background-image: linear-gradient(red,tomato);
+    background-image: linear-gradient(darkred, red);
     padding: 8px 25px;
     color: white;
     font-weight: 700;
@@ -32,7 +37,7 @@ h1{
 }
 .sky{
     text-decoration: none;
-    background-image: linear-gradient(skyblue,black);
+    background-image: linear-gradient(black,skyblue);
     padding: 8px 25px;
     color: white;
     font-weight: 700;
@@ -41,11 +46,11 @@ h1{
 .top{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    margin-bottom: 100px;
+    
 }
 .new-button{
     text-decoration: none;
-    background-image: linear-gradient(blue,darkblue);
+    background-image: linear-gradient(darkblue, skyblue);
     padding: 8px 25px;
     color: white;
     font-weight: 700;
@@ -55,9 +60,27 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    margin-bottom: 100px;
+    
 }
 .exp{
-    margin-bottom: 100px;
-    box-shadow: 10px 10px yellowgreen;
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 6px solid green;
+}
+.exp-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.exp1{
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 6px solid darkred;
 }
